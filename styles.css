@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  text-align: center;
+  color: #080;
+  background-color: rgb(112, 164, 164);
+  background: rgb(172, 178, 245);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(172, 178, 245, 1) 0%,
+    rgba(230, 154, 213, 1) 44%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(172, 178, 245, 1) 0%,
+    rgba(230, 154, 213, 1) 44%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(172, 178, 245, 1) 0%,
+    rgba(230, 154, 213, 1) 44%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#acb2f5",endColorstr="#e69ad5",GradientType=1);
+}
+section {
+  max-width: 1450px;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px #888;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+h3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 3rem;
+  text-shadow: 5px 8px 3px #666;
+  letter-spacing: 0.2rem;
+  margin: 3rem 0 2rem 0;
+}
+p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+button {
+  color: #080;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 0.7rem 3rem;
+  cursor: pointer;
+  margin: 1rem;
+  border-top: solid #fff 2px;
+  border-left: solid #fff 2px;
+  transition: background-color 0.3s linear, box-shadow 0.3s linear;
+}
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 3px 5px #888;
+}
